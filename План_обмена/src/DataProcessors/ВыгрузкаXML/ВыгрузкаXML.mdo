@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="869b1502-e1cf-47e0-adbe-89f20c502a34">
+  <producedTypes>
+    <objectType typeId="240ba6aa-b878-4282-b324-2030c0c1ea45" valueTypeId="fca7b065-d945-4db0-bdaf-9804465c5546"/>
+    <managerType typeId="b54dee3b-c577-4bfd-b3f5-473691d585f9" valueTypeId="f2f02dc0-cfc4-48fc-9b46-e6616890ec61"/>
+  </producedTypes>
+  <name>ВыгрузкаXML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка XML</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаXML.Form.Форма</defaultForm>
+  <attributes uuid="d1c4fb39-0343-4fe6-905b-c504b9619537">
+    <name>КаталогСохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог сохранения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="506d9e5f-dd2d-484e-a5ce-7c836beb37f6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

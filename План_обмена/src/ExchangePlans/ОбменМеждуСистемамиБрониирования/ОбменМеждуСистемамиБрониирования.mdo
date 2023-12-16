@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46d74dce-d3fb-409a-b76a-e0de57d85644" thisNode="0c3a17ab-dbd6-4259-9016-1ee8a4d64408">
+  <producedTypes>
+    <objectType typeId="5061ff26-9ab8-4ad6-bbbc-a8d64be1ca80" valueTypeId="84748c19-e611-4ccd-8a61-3eba44e878e6"/>
+    <refType typeId="2b278f99-b59a-4ca7-a49e-19a5038b1914" valueTypeId="6bb6a1f2-19cb-44f4-b171-06a2ce48abbe"/>
+    <selectionType typeId="4e3072a8-24fa-49d0-a964-9cb67865019f" valueTypeId="1fd90af5-af4a-4c45-b45e-a8bcf978a5f4"/>
+    <listType typeId="81c4be8e-a75a-437c-9313-06a41ed0f3c3" valueTypeId="59aaf97a-3000-4f8b-86bf-c140e5792b35"/>
+    <managerType typeId="06099b12-bad0-4953-9800-53d93db93677" valueTypeId="1d499f17-2299-4d84-a5fc-28daecc11489"/>
+  </producedTypes>
+  <name>ОбменМеждуСистемамиБрониирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен между системами брониирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменМеждуСистемамиБрониирования.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменМеждуСистемамиБрониирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.Бронирование</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>
